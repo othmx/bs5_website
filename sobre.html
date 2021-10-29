@@ -2,6 +2,8 @@
 <html lang="pt">
 <head>
   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <meta name=”application-name” content="Teste Front-end">
+  <meta http-equiv="content-language" content="pt-br">
   <title>Lorem Ipsum</title>
   <link rel="shortcut icon" href="https://res.cloudinary.com/drzlksocr/image/upload/v1635528503/favicon_mslg7v.ico">
   <!-- CSS only -->
@@ -13,12 +15,14 @@
 </head>
 <body>
   <!-- Cabecalho -->
+  <header>
   <div class="container-fluid p-4 bg-dark text-white text-left">
     <h1 id="nome">Thomas Castro de Queiros</h1>
     <h6>Desenvolvedor Jr | HTML | CSS | JavaScript</h6>
     <a href="https://github.com/othmx"><span class="badge btn bg-secondary">Github</span></a>
     <a href="https://www.linkedin.com/in/oth0mx/"><span class="badge btn bg-primary">LinkedIn</span></a>
   </div>
+  </header>
 
   <!-- Barra de navegacao -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary mg-navbar sticky-top">
@@ -42,15 +46,20 @@
   </nav>
   </nav>
 
+  <!-- Estutura -->
+  <main>
   <!-- Box Texto 1 -->
+  <section>
   <div class="container p-5 text-center">
     <h1>Objetivo <i class="bi bi-graph-up-arrow"></i></h1>
     <div class="mt-4 p-5 bg-light rounded">
       <p class="lead">Desejo tornar-me um desenvolvedor back-end. Atualmente estudando <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>, em sequência, <strong>Node.js</strong>, <strong>Express.js</strong>, <strong>jQuery</strong> e <strong>Electron</strong>. Minha carreira está no início, mas estou <mark>em busca de uma oportunidade para demonstrar meu talento e minhas habilidades</mark>. Posso compensar a falta de experiência com <strong>dedicação</strong> e <strong>empenho</strong>.</p>
     </div>
   </div>
+  </section>
 
   <!-- Box Texto 2 -->
+  <section>
   <div class="container p-5 text-center">
     <h1>Conhecimentos <i class="bi bi-book"></i></h1>
     <h2 class="h3"><i class="bi bi-globe2"></i> <i class="bi bi-windows"></i> <i class="bi bi-shield-check"></i> <i class="bi bi-clipboard-data"></i> <i class="bi bi-pen"></i></h2>
@@ -66,20 +75,26 @@
       </ul>
       </div>
   </div>
+  </section>
 
   <!-- Texto 3 -->
+  <section>
   <div class="container p-5 text-center">
     <h1>Um fato sobre mim <i class="bi bi-lightbulb"></i></h1>
     <p class="lead pt-2">Tenho facilidade em aprender coisas novas, e o entusiamo para ir atrás do que quero, planejo metas e caminhos para chegar no meu objetivo. Aprender novas tecnologias ou conceitos não será um problema.</p>
   </div>
+  </section>
 
   <!-- Box Contato -->
+  <section>
   <div class="container p-5 text-center bg-light">
     <h1 class="h3">Gostou?</h1>
     <h1><a href="https://github.com/othmx"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/oth0mx/"><i class="bi bi-linkedin"></i></a> <a href="mailto:thomascastrogp@gmail.com"><i class="bi bi-envelope-fill"></i></a> <a href="https://api.whatsapp.com/send?phone=5513996371416"><i class="bi bi-whatsapp"></i></a></h1>
   </div>
+  </section>
 
   <!-- Box Formulario pra encher linguica (Nao tem backend) -->
+  <section>
   <div class="container p-5 text-center bg-light mb-5 mt-5">
     <h2>Contato <i class="bi bi-people"></i></h2>
     <form action="" class="container-fluid p-5 text-black text-center">
@@ -95,6 +110,8 @@
       <p class="text-muted">(este formulário <strong>não</strong> funciona)</p>
     </form>
   </div>
+  </section>
+  </main>
 
   <!-- Rodape -->
   <footer class="bg-dark text-center text-lg-start">
